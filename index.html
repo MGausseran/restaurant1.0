@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel=stylesheet href="stylesheetsitefinal.css">
@@ -17,8 +18,8 @@
 
 <body class="container">
     <header class="d-flex py-4">
-        <i class="logo fa-solid fa-utensils fa-3x p-4 mx-5"></i>
-        <h1>La Fourchette</h1>
+        <i class="logo fa-solid fa-n fa-3x p-4 mx-5"></i>
+        <h1>Le Nougaro</h1>
     </header>
     <nav>
         <ul class="d-flex justify-content-evenly py-3">
@@ -30,19 +31,47 @@
         </ul>
     </nav>
     <main>
-        <section class="banner">
-            <img src="https://www.6em-sens.fr/wp-content/uploads/2022/03/21.jpg">
-            <h2>Bienvenue chez vous !</h2>
+        <section class="banner center position-relative">
+            <section class="banner_img">
+                <img src="https://www.6em-sens.fr/wp-content/uploads/2022/03/21.jpg" alt="Bannière du site">
+            </section>
+            <section class="jumbotron position-absolute top-50 start-50 translate-middle align-content-center">
+                <h2 class="display-4">Bienvenue</h2>
+                <p class="lead">de la part de toute l'équipe !</p>
+                <hr class="my-4">
+                <p>Niché au cœur de Bruxelles, notre restaurant est né de la passion et de l'amour de notre petite équipe pour la cuisine authentique et innovante. Au Nougaro, nous avons su marier le meilleur du terroir français avec l'énergie et la créativité de la street-food.</p>
+
+                <p>Notre menu, soigneusement élaboré, met en lumière des ingrédients locaux et de saison, sublimés par des techniques modernes et des influences cosmopolites. Que vous soyez en quête d'une expérience gastronomique inédite ou d'une pause gourmande décontractée, notre carte saura éveiller vos papilles et surprendre vos sens.</p>
+
+                <p>Rejoignez-nous pour un voyage culinaire unique où tradition et modernité se rencontrent dans une ambiance chaleureuse et conviviale. Laissez-vous séduire par notre cuisine où chaque plat raconte une histoire, celle de notre terroir et de notre passion.</p>
+
+                <p>À très bientôt au Nougaro !</p>
+            </section>
+        </section>
+        <section class="actualities mt-3">
+            <div class="row">
+                <div class="col">
+                    <div class="pdj_column d-flex justify-content-start px-5 py-3">
+                        <h3>Plat du jour</h3>
+                    </div>
+                    <h4 class="d-flex justify-content-center py-3 px-5">Wrap aux gésiers de canard</h4>
+                    <img class="d-flex m-auto align-content-center pdj_img img-fluid" src="https://www.sarrade.fr/wp-content/uploads/2022/06/recette-wraps-au-magret-et-foie-gras.jpg">
+                </div>
+                <div class="col">
+                    <div class="concerts_column py-3 px-5 d-flex justify-content-end">
+                        <h3>Concerts</h3>
+                    </div>
+                    <h4 class="d-flex justify-content-center py-3 px-5">The Kooks</h4>
+                    <img class="d-flex m-auto align-content-center pdj_img img-fluid" src="https://live.staticflickr.com/6144/5993868962_9dddf174c7_z.jpg">
+                </div>
+            </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <footer>
         <div class="d-flex justify-content-evenly">
-                <a href="#" class="p-4 btn btn-primary">Mentions légales</a>
-                <a href="#" class="p-4 btn btn-primary">Politique de confidentialité</a>
-            </div>
+            <a href="#" class="p-4 btn btn-primary">Mentions légales</a>
+            <a href="#" class="p-4 btn btn-primary">Politique de confidentialité</a>
         </div>
     </footer>
-</body>
-
-</html>
+</body></html>

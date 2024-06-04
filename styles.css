@@ -2,10 +2,9 @@
 
 h1 {
     font-size: 75px;
-    font-family: "Dancing Script", cursive;
 }
 
-h2 {
+h1,h2,p{
     font-family: "Ubuntu"
 }
 
@@ -27,7 +26,6 @@ header {
 
 nav {
     background-color: #52514f;
-    font-family: "Ubuntu";
 }
 
 nav a {
@@ -39,9 +37,47 @@ nav a {
     border-bottom: 3px solid #fff;
 }
 
+/*------BANNER------*/
+
+.banner {
+    color: white;
+    overflow: hidden
+}
+
+.banner img {
+    width: 100%;
+    height: 100%
+}
+
+.jumbotron {
+    background-color: hsl(0,0%,0%,0.55);
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+}
 
 
+
+/*------MAIN------*/
+
+
+
+.pdj_column,.concerts_column, h3{
+    background-color: black;
+    color: white;
+}
+
+.pdj_img {
+    height: 50%;
+    width: 50%;
+    border: solid 5px black;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+}
 /*------FOOTER------*/
+
+
 
 footer {
     background-color: black
