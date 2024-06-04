@@ -1,0 +1,51 @@
+/*------GENERAL------*/
+
+h1 {
+    font-size: 75px;
+    font-family: "Dancing Script", cursive;
+}
+
+h2 {
+    font-family: "Ubuntu"
+}
+
+header {
+    color: #fff;
+    background-color: black;
+}
+
+.logo {
+    border: solid 5px white;
+    border-radius: 50%;    
+}
+
+
+
+/*------NAV BAR------*/
+
+
+
+nav {
+    background-color: #52514f;
+    font-family: "Ubuntu";
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.lien-actif {
+    border-bottom: 3px solid #fff;
+}
+
+
+
+/*------FOOTER------*/
+
+footer {
+    background-color: black
+}
+footer .btn-primary {
+    background-color: black;
+}
