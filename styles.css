@@ -1,4 +1,8 @@
 /*------GENERAL------*/
+body {
+    font-family: "Ubuntu"
+}
+
 h1 {
     font-size: 40px
 }
@@ -13,7 +17,6 @@ header {
 }
 
 /*------NAV BAR------*/
-
 
 
 nav {
@@ -56,7 +59,20 @@ nav {
 
 /*------MAIN------*/
 
+.rubrique {
+    font-family: "Cabin";
+    font-style: italic;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    font-size: 1.5em
+}
 
+.btn_menu {
+    color: white;
+    background-color: black;
+    width: 100%
+}
 
 .pdj_column,.concerts_column, h3{
     background-color: black;
@@ -80,8 +96,6 @@ nav {
     object-position: top;
 }
 /*------FOOTER------*/
-
-
 
 footer {
     background-color: black

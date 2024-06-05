@@ -11,6 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d77ec9266d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -48,21 +49,98 @@
         </div>
     </nav>
     <main>
-        <section>
-            <ul class="list-group">
-  <li class="list-group-item d-flex justify-content-between align-items-center">
-    A list item
-    <span class="badge text-bg-primary rounded-pill">14</span>
-  </li>
-  <li class="list-group-item d-flex justify-content-between align-items-center">
-    A second list item
-    <span class="badge text-bg-primary rounded-pill">2</span>
-  </li>
-  <li class="list-group-item d-flex justify-content-between align-items-center">
-    A third list item
-    <span class="badge text-bg-primary rounded-pill">1</span>
-  </li>
-</ul>
+        <section class="rubrique">
+            <div class="row col-12">
+                <div class="d-flex justify-content-center p-3">Menu</div>
+            </div>
+        </section>
+        <section class="menu">
+            <p class="entrees">
+                <a class="btn btn_menu" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Entrées <i class="fa-solid fa-arrow-turn-down"></i>
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample1">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Tartelette Provençale</div>
+                            Tomates cerises, courgettes, poivrons, olives noires, herbes de Provence, fromage de chèvre.
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Gaufre Savoyarde</div>
+                            Pomme de terre râpée, fromage à raclette, jambon de Savoie, crème fraîche, ciboulette.
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Mini Bouillabaisse Wrap</div>
+                             Poisson blanc, crevettes, moules, tomate, fenouil, ail, safran, tortillas.
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                </ol>
+            </div>
+            <p class="plats">
+                <a class="btn btn_menu" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Plats <i class="fa-solid fa-arrow-turn-down"></i>
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample2">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Burger au Bœuf Bourguignon</div>
+                            Bœuf braisé au vin rouge, champignons, lardons, oignons caramélisés, pain burger.
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Tacos Poulet Basquaise</div>
+                            Poulet, poivrons rouges, tomates, piment d'Espelette, oignons, tortillas de maïs.
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Galette de Sarrasin au Confit de Canard</div>Galette de sarrasin, confit de canard, pommes de terre sautées, oignons, persil.
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                </ol>
+            </div>
+            <p class="desserts">
+                <a class="btn btn_menu" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Desserts <i class="fa-solid fa-arrow-turn-down"></i>
+                </a>
+            </p>
+            <div class="collapse" id="collapseExample3">
+                <ol class="list-group list-group-numbered">
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Crêpe Suzette au Caramel Beurre Salé</div>Pâte à crêpe, beurre salé, sucre, jus d'orange, Grand Marnier.
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Éclair à la Tatin</div>Pâte à choux, pommes caramélisées, crème pâtissière à la vanille, caramel.
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                        <div class="ms-2 me-auto">
+                            <div class="fw-bold">Chouquette aux Pralines Roses</div>Pâte à choux, pralines roses, sucre perlé.
+                        </div>
+                        <span class="badge text-bg-primary rounded-pill">14</span>
+                    </li>
+                </ol>
+            </div>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -76,5 +154,4 @@
             </div>
         </div>
     </footer>
-</body>
-</html>
+</body></html>
