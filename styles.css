@@ -74,6 +74,11 @@ nav {
     width: 100%
 }
 
+.btn_menu_top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
 .pdj_column,.concerts_column, h3{
     background-color: black;
     color: white;
