@@ -11,6 +11,7 @@ h1,h2,h3,p,a{
     font-family: "Ubuntu"
 }
 
+
 header {
     color: #fff;
     background-color: black;
@@ -65,7 +66,7 @@ nav {
     font-weight: 600;
     background-color: black;
     color: white;
-    font-size: 1.5em
+    font-size: 2em;
 }
 
 .btn_menu {
@@ -81,8 +82,9 @@ nav {
 .galerie_intro{
     background-color: white;
     color: black;
-    font-weight: 200;
+    font-weight: 300;
     text-align: center;
+    font-size: 1.2em
 }
 
 .badge {
