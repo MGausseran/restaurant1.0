@@ -1,7 +1,6 @@
 /*------GENERAL------*/
 body {
     font-family: "Ubuntu";
-    
 }
 
 h1 {
@@ -73,6 +72,17 @@ nav {
     color: white;
     background-color: black;
     width: 100%
+}
+
+.actualities {
+    overflow-x: hidden
+}
+
+.galerie_intro{
+    background-color: white;
+    color: black;
+    font-weight: 200;
+    text-align: center;
 }
 
 .badge {
