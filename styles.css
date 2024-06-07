@@ -115,8 +115,6 @@ h3 {
 }
 
 .pdj_img {
-    height: 50%;
-    width: 50%;
     border: solid 5px black;
     border-radius: 50%;
     object-fit: cover;
@@ -124,12 +122,10 @@ h3 {
 }
 
 .concerts_column_img {
-    height: 50%;
-    width: 50%;
     border: solid 5px black;
     border-radius: 50%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 }
 
 .img_presentation {
