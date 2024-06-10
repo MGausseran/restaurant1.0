@@ -98,6 +98,28 @@ nav {
     font-size: 1.2em
 }
 
+.carousel-small {
+    max-width: 550px;
+    margin: auto;
+}
+
+.carousel-small img {
+    height: auto;
+    max-height: 550px;
+    width: 100%;
+}
+
+.carousel-small {
+    max-width: 550px;
+    margin: auto;
+}
+
+.carousel-small img {
+    height: auto;
+    max-height: 550px;
+    width: 100%;
+}
+
 .badge {
     background-color: black;
 }
@@ -119,6 +141,7 @@ h3 {
     border-radius: 50%;
     object-fit: cover;
     object-position: top;
+    max-width: 350px;
 }
 
 .concerts_column_img {
@@ -126,6 +149,8 @@ h3 {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+    
+    max-width: 350px;
 }
 
 .img_presentation {
@@ -142,6 +167,10 @@ h3 {
     color: red;
 }
 
+.menu a {
+    font-size: 1.5em;
+    align-items: center;
+}
 /*------FOOTER------*/
 
 footer {
