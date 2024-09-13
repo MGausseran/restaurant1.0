@@ -1,6 +1,7 @@
 # Restaurant
 
-https://mgausseran.github.io/restaurant-css-framework/
+[https://mgausseran.github.io/restaurant-css-framework/
+](https://mgausseran.github.io/restaurant1.0/)
 
 - Projet réalisé seul en juin 2024 au cours de ma formation [WebDev à BeCode](https://becode.org/)..
 - Objectif : apprendre et mettre en pratique les rudiments de Bootstrap.
